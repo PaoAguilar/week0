@@ -1,0 +1,181 @@
+body {
+  background: linear-gradient(120deg, #d9afd9 0%, #97d9e1 100%) fixed;
+}
+
+/* MENU SECTION */
+.menu {
+  padding: 2rem 4rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 0.5rem;
+}
+.menu > button {
+  border: 5px solid #df6ccf;
+  background: transparent;
+  color: #df6ccf;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: transparent;
+  box-shadow: 8px 8px 0 #888;
+}
+button:hover {
+  color: white;
+  background: #df6ccf;
+  box-shadow: 4px 4px 0 #888;
+}
+
+/* PRICES SECTION */
+.prices {
+  padding: 2rem 4rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+}
+.prices__one {
+  padding: 1rem;
+}
+.prices__two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url("./img/bckgrnd.png") center;
+  background-size: cover;
+  height: 11rem;
+  text-align: center;
+  margin: 1rem;
+}
+.prices__image {
+  background: url("./img/portrait.png") center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  grid-column: span 3;
+  grid-row: span 2;
+}
+.prices__image > h1 {
+  padding-left: 1rem;
+  font-size: 3rem;
+}
+.prices__image > p {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+/* DESCRIPTIONS SECTION */
+.descriptions {
+  padding: 0rem 4rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1.5rem;
+}
+.descriptions > div {
+  background-color: rgb(224, 169, 217);
+  border-radius: 10%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* FEATURE SECTION */
+.feature {
+  padding: 2rem 4rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-rows: repeat(2, 200px);
+  grid-auto-flow: dense;
+}
+.feature__image {
+  background: url("./img/hello.png") center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.feature__description {
+  background-color: white;
+  grid-row: span 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.feature__description > h1 {
+  text-align: center;
+}
+.feature__description > button {
+  border: 5px solid #df6ccf;
+  background: transparent;
+  color: #df6ccf;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: transparent;
+  box-shadow: 8px 8px 0 #888;
+  width: 10rem;
+  align-self: center;
+}
+button:hover {
+  color: white;
+  background: #df6ccf;
+  box-shadow: 4px 4px 0 #888;
+}
+
+/* PRODUCTS SECTION */
+.product-title {
+  text-align: center;
+}
+.products {
+  padding: 0rem 4rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 2rem;
+}
+.products__1 {
+  background: url("./img/apron.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__2 {
+  background: url("./img/glasses.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__3 {
+  background: url("./img/lunch.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__4 {
+  background: url("./img/lunch2.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__5 {
+  background: url("./img/mug.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__6 {
+  background: url("./img/mug2.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__7 {
+  background: url("./img/mugg3.png") center;
+  height: 15rem;
+  background-size: cover;
+}
+.products__8 {
+  background: url("./img/portrait2.png") center;
+  height: 15rem;
+  background-size: cover;
+}
