@@ -131,7 +131,25 @@ button:hover {
 
 /* PRODUCTS SECTION */
 .product-title {
+  padding: 0rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+.product-left {
+  height: 1rem;
+  width: 33%;
+  margin-top: 3rem;
+  background: linear-gradient(90deg, #7ce5f2 0%, #ed66d4 100%);
+}
+.product-right {
+  width: 33%;
+  height: 1rem;
+  margin-top: 3rem;
+  background: linear-gradient(90deg, #ed66d4 0%, #7ce5f2 100%);
+}
+.product-center {
   text-align: center;
+  padding: 1rem;
 }
 .products {
   padding: 0rem 4rem 2rem 4rem;
